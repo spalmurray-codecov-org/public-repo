@@ -1,4 +1,4 @@
-from main import add, subtract, multiply
+from main import add, asdf, subtract, multiply
 
 def test_add():
     assert add(1, 2) == 3
@@ -8,3 +8,6 @@ def test_subtract():
 
 def test_multiply():
     assert multiply(2, 3) == 6
+
+def test_asdf():
+    assert asdf(0) == "rip"
