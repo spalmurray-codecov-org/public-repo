@@ -1,5 +1,8 @@
 name: Run test and upload coverage
 
+permissions:
+  id-token: write
+
 on: push
 
 jobs:
@@ -24,5 +27,4 @@ jobs:
       - name: Upload results to Codecov
         uses: codecov/codecov-action@v4
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          slug: spalmurray-codecov-org/public-repo
+          use_oidc: true
