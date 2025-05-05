@@ -4,3 +4,6 @@ component_management:
       name: main
       paths:
         - main.py
+
+comment:
+  after_n_builds: 5
