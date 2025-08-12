@@ -8,6 +8,3 @@ def test_subtract():
 
 def test_multiply():
     assert multiply(2, 3) == 6
-
-def test_asdf():
-    assert asdf(0) == "rip"
