@@ -11,4 +11,7 @@ def divide(a: int, b: int) -> float:
     return a / b
 
 def asdf(a: int) -> str:
-    return "asdf" * a if a else "rip"
+    if a:
+        return a * "asdf"
+    else:
+        return "rip"
