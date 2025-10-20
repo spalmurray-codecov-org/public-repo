@@ -25,4 +25,5 @@ jobs:
         uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
+          url: https://spencer.sentry.ngrok.dev
           slug: spalmurray-codecov-org/public-repo
