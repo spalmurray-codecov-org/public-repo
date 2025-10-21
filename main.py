@@ -9,3 +9,6 @@ def multiply(a: int, b:int) -> int:
 
 def divide(a: int, b: int) -> float:
     return a / b
+
+def modulo(a: int, b: int) -> int:
+    return a % b
