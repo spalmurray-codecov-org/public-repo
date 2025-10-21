@@ -6,4 +6,8 @@ component_management:
         - main.py
 
 comment:
-  after_n_builds: 5
+  layout: "condensed_header, condensed_files, condensed_footer"
+  require_changes: false
+  require_base: false
+  require_head: true
+  hide_project_coverage: true
