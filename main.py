@@ -9,3 +9,9 @@ def multiply(a: int, b:int) -> int:
 
 def divide(a: int, b: int) -> float:
     return a / b
+
+def asdf(a: int) -> str:
+    if a:
+        return a * "asdf"
+    else:
+        return "rip"
